@@ -1,0 +1,105 @@
+body {
+    background-image: url("../img/16212726_p0.png");
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: #40F000;
+    color: white;
+}
+
+#navbar>div>a {
+    color: white;
+}
+
+#navbarSupportedContent>ul>li:nth-child(0)>a {
+    color: white;
+}
+
+#navbarSupportedContent>ul>li:nth-child(1)>a {
+    color: white;
+}
+
+#navbarSupportedContent>ul>li:nth-child(2)>a {
+    color: white;
+}
+
+#navbarSupportedContent>ul>li:nth-child(3)>a {
+    color: white;
+}
+
+
+
+
+body>header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    padding: 2%;
+    opacity: 1;
+
+}
+
+.agumonsprite {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+#bloquedigimon {
+    overflow-y: scroll;
+    max-height: 600px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+.zoom {
+    padding: 40px;
+    transition: transform .2s;
+    /* Animacion */
+    width: 200px;
+    height: 200x;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img.zoom {
+    width: 200px;
+    height: 200px;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+#merch {
+    color: white;
+    text-align: center;
+}
+
+body>footer {
+    padding: 2%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+/*  <section class="container mt-5 pt-50 pb-50" id="merch"> */
+@media(max-width: 767px) {
+    #merch {
+        display: none;
+    }
+
+    img.zoom {
+        width: 150px;
+        height: 150px;
+    }
+
+    .agumonsprite {
+        display: none;
+    }
+}
